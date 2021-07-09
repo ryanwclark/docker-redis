@@ -1,4 +1,4 @@
-# docker-redis
+# github.com/ryanwclark/docker-redis
 
 
 [![GitHub release](https://img.shields.io/github/v/tag/ryanwclark/docker-redis?style=flat-square)](https://github.com/ryanwclark/docker-redis/releases/latest)
