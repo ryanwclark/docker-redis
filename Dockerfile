@@ -1,7 +1,7 @@
 FROM ryanwclark/alpine:3.13
 LABEL maintainer="Ryan Clark (ryanwclark@yahoo.com)"
 
-ENV REDIS_VERSION=6.2.4 \
+ENV REDIS_VERSION=6.2.5 \
     ZABBIX_HOSTNAME=redis-db \
     ENABLE_SMTP=FALSE
 
