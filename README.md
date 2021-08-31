@@ -1,12 +1,8 @@
 # docker-redis
 
-
-[![GitHub release](https://img.shields.io/github/v/tag/ryanwclark/docker-redis?style=flat-square)](https://github.com/ryanwclark/docker-redis/releases/latest)
 [![Build Status](https://img.shields.io/github/workflow/status/ryanwclark/docker-redis/build?style=flat-square)](https://github.com/ryanwclark/docker-redis/actions?query=workflow%3Abuild)
 [![Docker Stars](https://img.shields.io/docker/stars/ryanwclark/redis.svg?style=flat-square&logo=docker)](https://hub.docker.com/ryanwclark/redis/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/ryanwclark/redis.svg?style=flat-square&logo=docker)](https://hub.docker.com/ryanwclark/redis/)
-
-
 
 
 ## About
@@ -19,19 +15,31 @@ This will build a Docker image for [Redis](https://www.redis.org) - a high speed
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Authors](#authors)
-- [Table of Contents](#table-of-contents)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-  - [Quick Start](#quick-start)
-- [Configuration](#configuration)
-  - [Data-Volumes](#data-volumes)
-  - [Environment Variables](#environment-variables)
-  - [Networking](#networking)
-- [Maintenance](#maintenance)
-  - [Shell Access](#shell-access)
-- [References](#references)
+- [docker-redis](#docker-redis)
+  - [About](#about)
+  - [Maintainer](#maintainer)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites and Assumptions](#prerequisites-and-assumptions)
+  - [Prerequisites and Assumptions](#prerequisites-and-assumptions-1)
+  - [Installation](#installation)
+    - [Build from Source](#build-from-source)
+    - [Prebuilt Images](#prebuilt-images)
+      - [Multi Archictecture](#multi-archictecture)
+  - [Configuration](#configuration)
+    - [Quick Start](#quick-start)
+    - [Persistent Storage](#persistent-storage)
+    - [Environment Variables](#environment-variables)
+      - [Base Images used](#base-images-used)
+    - [Networking](#networking)
+  - [Maintenance](#maintenance)
+    - [Shell Access](#shell-access)
+  - [Support](#support)
+    - [Usage](#usage)
+    - [Bugfixes](#bugfixes)
+    - [Feature Requests](#feature-requests)
+    - [Updates](#updates)
+  - [License](#license)
+  - [References](#references)
 
 ## Prerequisites and Assumptions
 
