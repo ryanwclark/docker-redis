@@ -9,10 +9,6 @@
 
 This will build a Docker image for [Redis](https://www.redis.org) - a high speed database.
 
-## Maintainer
-
-- [Ryan Clark](https://github.com/ryanwclark)
-
 ## Table of Contents
 
 - [docker-redis](#docker-redis)
